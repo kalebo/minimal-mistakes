@@ -3023,7 +3023,7 @@
 			top: 0;
 			left: 0;
 			background-color: #009933;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/308.jpg");
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/308_sm.jpg");
 			background-size: auto, auto, cover;
 			background-position: center, center, center;
       background-repeat: repeat, no-repeat, no-repeat;

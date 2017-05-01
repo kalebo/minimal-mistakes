@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<!--
+	Based on Massively by HTML5 UP from html5up.net (@ajlkn)
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<html>
+	<head>
+		<title>Lauren & Kaleb — June 30th — Map</title>
+    {% include 'head.html' %}
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+        <div class="bg"></div>
+
+				<!-- Header -->
+            {% include 'header.html' %}
+
+				<!-- Nav -->
+            {% include 'nav.html' %}
+            <script>
+            document.getElementById("nav_map").classList.add("active");
+            </script>
+
+				<!-- Main -->
+        <div id="main">
+            <p>The reception will be held at 241 International Way, Alpine, UT. </p>
+            <iframe src="https://www.google.com/maps/d/embed?mid=10OFz8llSIZD7BZiWXH-fGkBxYgw" width="640" height="480"></iframe>
+
+				<!-- Footer -->
+            {% include 'footer.html' %}
+
+				<!-- Copyright -->
+            {% include 'copyright.html' %}
+
+        </div>
+
+		<!-- Scripts -->
+        {% include 'scripts.html' %}
+
+	</body>
+</html>
