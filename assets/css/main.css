@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Raleway|Rouge+Script");
+@import url("https://fonts.googleapis.com/css?family=Raleway|Rouge+Script|Playfair+Display:400,400i");
 
 /*
 	Massively by HTML5 UP
@@ -1705,7 +1705,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-    font-family: 'Rouge Script', cursive;
+    font-family: 'Playfair Display', serif;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 	}
