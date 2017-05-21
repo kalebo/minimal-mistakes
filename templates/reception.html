@@ -7,10 +7,7 @@
 <html>
 	<head>
 		<title>Lauren & Kaleb — June 30th — Map</title>
-    		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    {% include 'head.html' %}
     <style type="text/css">
         /* Set a size for our map container, the Google Map will take up 100% of this container */
         #map {
@@ -98,13 +95,7 @@
             <div style="padding-top:4rem;"></div>
 
 				<!-- Nav -->
-            					<nav id="nav">
-						<ul class="links">
-							<li id="nav_index"><a href="index.html">Our Story</a></li>
-							<li id="nav_map" ><a href="reception.html">Reception</a></li>
-							<li id="nav_registry"><a href="registry.html">Registry</a></li>
-						</ul>
-					</nav>
+            {% include 'nav.html' %}
             <script>
             document.getElementById("nav_map").classList.add("active");
             </script>
@@ -124,25 +115,11 @@
         </div>
 
     <!-- Copyright -->
-        					<div id="copyright">
-						  <ul>
-                  <li>Design based on: <a href="https://html5up.net">HTML5 UP</a></li>
-                  <li>Contact us at <a href="mailto:us@laurenandkaleb.com">us@laurenandkaleb.com</a></li>
-              </ul>
-					</div>
+        {% include 'copyright.html' %}
 
 
 		<!-- Scripts -->
-        			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-      <a title="Google Analytics Alternative" href="http://clicky.com/101047778"><img alt="Google Analytics Alternative" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
-<script src="//static.getclicky.com/js" type="text/javascript"></script>
-<script type="text/javascript">try{ clicky.init(101047778); }catch(e){}</script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101047778ns.gif" /></p></noscript>
+        {% include 'scripts.html' %}
 
 	</body>
 </html>
